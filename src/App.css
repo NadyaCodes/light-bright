@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.dot {
+  width: .5rem;
+  height: .5rem;
+  border: .1rem solid black;
+  border-radius: 50%;
+  margin: .1rem;
+}
+
+.dot-grid {
+  display: grid;
+  grid-template-columns: repeat(80, 1fr);
+  width: 1200px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: white;
+}
