@@ -74,3 +74,17 @@
 .white {
   background-color: white;
 }
+
+
+.big-dot {
+  width: 2rem;
+  height: 2rem;
+  border: .1rem solid black;
+  border-radius: 50%;
+  margin: .1rem;
+}
+
+#root > div > div:nth-child(2) {
+  display: flex;
+  /* flex-direction: row; */
+}
