@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,6 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+html {
+  background-color: black;
+}
+
+h2 {
+  color: rgb(155, 155, 155);
 }
 
 
@@ -42,7 +50,7 @@
 .dot {
   width: .5rem;
   height: .5rem;
-  border: .1rem solid black;
+  border: .1rem solid rgb(68, 68, 68);
   border-radius: 50%;
   margin: .1rem;
 }
@@ -60,31 +68,56 @@
 }
 
 .green {
-  background-color: lightgreen;
+  background-color: #34FE4F;
 }
 
 .blue {
-  background-color: lightblue;
+  background-color: #0FF0FC;
 }
 
 .purple {
-  background-color: purple;
+  background-color: #E200F7;
+}
+
+.yellow {
+  background-color: #CCFF00;
+}
+
+.pink {
+  background-color: #FA2FBD;
 }
 
 .white {
-  background-color: white;
+  background-color: transparent;
 }
 
 
 .big-dot {
   width: 2rem;
   height: 2rem;
-  border: .1rem solid black;
+  border: .1rem solid rgb(68, 68, 68);
   border-radius: 50%;
   margin: .1rem;
 }
 
 #root > div > div:nth-child(2) {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+span.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+span.current-container {
+  display: flex;
+  /* flex-direction: row-row; */
+  align-items: center;
+  padding-left: 10rem;
 }
