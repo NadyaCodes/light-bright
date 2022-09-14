@@ -4,7 +4,7 @@ export default function LightGrid(props) {
 
   const dotArray = []
 
-  for (let i = 0; i < 4400; i++) {
+  for (let i = 0; i < 2520; i++) {
     dotArray.push(<Dot color={props.color}/>)
   }
 
