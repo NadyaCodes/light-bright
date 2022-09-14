@@ -100,24 +100,29 @@ h2 {
   margin: .1rem;
 }
 
-#root > div > div:nth-child(2) {
+.options-container {
+  margin: auto;
+  width: 80%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-span.options {
+.options {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  /* background-color: red; */
 }
 
-span.current-container {
+.current-container {
   display: flex;
-  /* flex-direction: row-row; */
   align-items: center;
-  padding-left: 10rem;
+}
+
+.reset {
+   color: rgb(155, 155, 155);
+   background-color: transparent;
+   border: .2rem solid rgb(155, 155, 155);
+   font-size: x-large;
+   border-radius: .45rem;
+   height: 100%;
+   align-self: center;
 }
